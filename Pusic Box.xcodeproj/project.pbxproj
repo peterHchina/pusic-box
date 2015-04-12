@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D021E4D81AD56D5A00F7C08A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D021E4D71AD56D5A00F7C08A /* Cocoa.framework */; };
+		D021E4E21AD56D5A00F7C08A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D021E4E01AD56D5A00F7C08A /* InfoPlist.strings */; };
+		D021E4E41AD56D5A00F7C08A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D021E4E31AD56D5A00F7C08A /* main.m */; };
+		D021E4E81AD56D5A00F7C08A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D021E4E61AD56D5A00F7C08A /* Credits.rtf */; };
+		D021E4EB1AD56D5A00F7C08A /* PusicBoxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D021E4EA1AD56D5A00F7C08A /* PusicBoxAppDelegate.m */; };
+		D021E4EE1AD56D5A00F7C08A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D021E4EC1AD56D5A00F7C08A /* MainMenu.xib */; };
+		D021E4F01AD56D5A00F7C08A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D021E4EF1AD56D5A00F7C08A /* Images.xcassets */; };
+		D021E4F71AD56D5A00F7C08A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D021E4F61AD56D5A00F7C08A /* XCTest.framework */; };
+		D021E4F81AD56D5A00F7C08A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D021E4D71AD56D5A00F7C08A /* Cocoa.framework */; };
+		D021E5001AD56D5A00F7C08A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D021E4FE1AD56D5A00F7C08A /* InfoPlist.strings */; };
+		D021E5021AD56D5A00F7C08A /* Pusic_BoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D021E5011AD56D5A00F7C08A /* Pusic_BoxTests.m */; };
+		D021E50C1AD5734900F7C08A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D021E50B1AD5734900F7C08A /* WebKit.framework */; };
+		D021E5101AD5954E00F7C08A /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D021E50F1AD5954E00F7C08A /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D021E4F91AD56D5A00F7C08A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D021E4CC1AD56D5A00F7C08A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D021E4D31AD56D5A00F7C08A;
+			remoteInfo = "Pusic Box";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D021E4D41AD56D5A00F7C08A /* Pusic Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pusic Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D021E4D71AD56D5A00F7C08A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D021E4DA1AD56D5A00F7C08A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D021E4DB1AD56D5A00F7C08A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D021E4DC1AD56D5A00F7C08A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D021E4DF1AD56D5A00F7C08A /* Pusic Box-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pusic Box-Info.plist"; sourceTree = "<group>"; };
+		D021E4E11AD56D5A00F7C08A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D021E4E31AD56D5A00F7C08A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D021E4E51AD56D5A00F7C08A /* Pusic Box-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pusic Box-Prefix.pch"; sourceTree = "<group>"; };
+		D021E4E71AD56D5A00F7C08A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D021E4E91AD56D5A00F7C08A /* PusicBoxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PusicBoxAppDelegate.h; sourceTree = "<group>"; };
+		D021E4EA1AD56D5A00F7C08A /* PusicBoxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PusicBoxAppDelegate.m; sourceTree = "<group>"; };
+		D021E4ED1AD56D5A00F7C08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D021E4EF1AD56D5A00F7C08A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D021E4F51AD56D5A00F7C08A /* Pusic BoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pusic BoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D021E4F61AD56D5A00F7C08A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D021E4FD1AD56D5A00F7C08A /* Pusic BoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pusic BoxTests-Info.plist"; sourceTree = "<group>"; };
+		D021E4FF1AD56D5A00F7C08A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D021E5011AD56D5A00F7C08A /* Pusic_BoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pusic_BoxTests.m; sourceTree = "<group>"; };
+		D021E50B1AD5734900F7C08A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D021E50F1AD5954E00F7C08A /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D021E4D11AD56D5A00F7C08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D021E50C1AD5734900F7C08A /* WebKit.framework in Frameworks */,
+				D021E4D81AD56D5A00F7C08A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D021E4F21AD56D5A00F7C08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D021E4F81AD56D5A00F7C08A /* Cocoa.framework in Frameworks */,
+				D021E4F71AD56D5A00F7C08A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D021E4CB1AD56D5A00F7C08A = {
+			isa = PBXGroup;
+			children = (
+				D021E4DD1AD56D5A00F7C08A /* Pusic Box */,
+				D021E4FB1AD56D5A00F7C08A /* Pusic BoxTests */,
+				D021E4D61AD56D5A00F7C08A /* Frameworks */,
+				D021E4D51AD56D5A00F7C08A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D021E4D51AD56D5A00F7C08A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D021E4D41AD56D5A00F7C08A /* Pusic Box.app */,
+				D021E4F51AD56D5A00F7C08A /* Pusic BoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D021E4D61AD56D5A00F7C08A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D021E50B1AD5734900F7C08A /* WebKit.framework */,
+				D021E4D71AD56D5A00F7C08A /* Cocoa.framework */,
+				D021E4F61AD56D5A00F7C08A /* XCTest.framework */,
+				D021E4D91AD56D5A00F7C08A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D021E4D91AD56D5A00F7C08A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D021E4DA1AD56D5A00F7C08A /* AppKit.framework */,
+				D021E4DB1AD56D5A00F7C08A /* CoreData.framework */,
+				D021E4DC1AD56D5A00F7C08A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D021E4DD1AD56D5A00F7C08A /* Pusic Box */ = {
+			isa = PBXGroup;
+			children = (
+				D021E4E91AD56D5A00F7C08A /* PusicBoxAppDelegate.h */,
+				D021E4EA1AD56D5A00F7C08A /* PusicBoxAppDelegate.m */,
+				D021E4EC1AD56D5A00F7C08A /* MainMenu.xib */,
+				D021E4EF1AD56D5A00F7C08A /* Images.xcassets */,
+				D021E4DE1AD56D5A00F7C08A /* Supporting Files */,
+			);
+			path = "Pusic Box";
+			sourceTree = "<group>";
+		};
+		D021E4DE1AD56D5A00F7C08A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D021E50F1AD5954E00F7C08A /* icon.icns */,
+				D021E4DF1AD56D5A00F7C08A /* Pusic Box-Info.plist */,
+				D021E4E01AD56D5A00F7C08A /* InfoPlist.strings */,
+				D021E4E31AD56D5A00F7C08A /* main.m */,
+				D021E4E51AD56D5A00F7C08A /* Pusic Box-Prefix.pch */,
+				D021E4E61AD56D5A00F7C08A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D021E4FB1AD56D5A00F7C08A /* Pusic BoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				D021E5011AD56D5A00F7C08A /* Pusic_BoxTests.m */,
+				D021E4FC1AD56D5A00F7C08A /* Supporting Files */,
+			);
+			path = "Pusic BoxTests";
+			sourceTree = "<group>";
+		};
+		D021E4FC1AD56D5A00F7C08A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D021E4FD1AD56D5A00F7C08A /* Pusic BoxTests-Info.plist */,
+				D021E4FE1AD56D5A00F7C08A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D021E4D31AD56D5A00F7C08A /* Pusic Box */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D021E5051AD56D5A00F7C08A /* Build configuration list for PBXNativeTarget "Pusic Box" */;
+			buildPhases = (
+				D021E4D01AD56D5A00F7C08A /* Sources */,
+				D021E4D11AD56D5A00F7C08A /* Frameworks */,
+				D021E4D21AD56D5A00F7C08A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pusic Box";
+			productName = "Pusic Box";
+			productReference = D021E4D41AD56D5A00F7C08A /* Pusic Box.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D021E4F41AD56D5A00F7C08A /* Pusic BoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D021E5081AD56D5A00F7C08A /* Build configuration list for PBXNativeTarget "Pusic BoxTests" */;
+			buildPhases = (
+				D021E4F11AD56D5A00F7C08A /* Sources */,
+				D021E4F21AD56D5A00F7C08A /* Frameworks */,
+				D021E4F31AD56D5A00F7C08A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D021E4FA1AD56D5A00F7C08A /* PBXTargetDependency */,
+			);
+			name = "Pusic BoxTests";
+			productName = "Pusic BoxTests";
+			productReference = D021E4F51AD56D5A00F7C08A /* Pusic BoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D021E4CC1AD56D5A00F7C08A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PusicBox;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = peter;
+				TargetAttributes = {
+					D021E4F41AD56D5A00F7C08A = {
+						TestTargetID = D021E4D31AD56D5A00F7C08A;
+					};
+				};
+			};
+			buildConfigurationList = D021E4CF1AD56D5A00F7C08A /* Build configuration list for PBXProject "Pusic Box" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D021E4CB1AD56D5A00F7C08A;
+			productRefGroup = D021E4D51AD56D5A00F7C08A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D021E4D31AD56D5A00F7C08A /* Pusic Box */,
+				D021E4F41AD56D5A00F7C08A /* Pusic BoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D021E4D21AD56D5A00F7C08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D021E4E21AD56D5A00F7C08A /* InfoPlist.strings in Resources */,
+				D021E4F01AD56D5A00F7C08A /* Images.xcassets in Resources */,
+				D021E4E81AD56D5A00F7C08A /* Credits.rtf in Resources */,
+				D021E4EE1AD56D5A00F7C08A /* MainMenu.xib in Resources */,
+				D021E5101AD5954E00F7C08A /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D021E4F31AD56D5A00F7C08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D021E5001AD56D5A00F7C08A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D021E4D01AD56D5A00F7C08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D021E4E41AD56D5A00F7C08A /* main.m in Sources */,
+				D021E4EB1AD56D5A00F7C08A /* PusicBoxAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D021E4F11AD56D5A00F7C08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D021E5021AD56D5A00F7C08A /* Pusic_BoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D021E4FA1AD56D5A00F7C08A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D021E4D31AD56D5A00F7C08A /* Pusic Box */;
+			targetProxy = D021E4F91AD56D5A00F7C08A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D021E4E01AD56D5A00F7C08A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D021E4E11AD56D5A00F7C08A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D021E4E61AD56D5A00F7C08A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D021E4E71AD56D5A00F7C08A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D021E4EC1AD56D5A00F7C08A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D021E4ED1AD56D5A00F7C08A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D021E4FE1AD56D5A00F7C08A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D021E4FF1AD56D5A00F7C08A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D021E5031AD56D5A00F7C08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D021E5041AD56D5A00F7C08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D021E5061AD56D5A00F7C08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pusic Box/Pusic Box-Prefix.pch";
+				INFOPLIST_FILE = "Pusic Box/Pusic Box-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D021E5071AD56D5A00F7C08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pusic Box/Pusic Box-Prefix.pch";
+				INFOPLIST_FILE = "Pusic Box/Pusic Box-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D021E5091AD56D5A00F7C08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pusic Box.app/Contents/MacOS/Pusic Box";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pusic Box/Pusic Box-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pusic BoxTests/Pusic BoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D021E50A1AD56D5A00F7C08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pusic Box.app/Contents/MacOS/Pusic Box";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pusic Box/Pusic Box-Prefix.pch";
+				INFOPLIST_FILE = "Pusic BoxTests/Pusic BoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D021E4CF1AD56D5A00F7C08A /* Build configuration list for PBXProject "Pusic Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D021E5031AD56D5A00F7C08A /* Debug */,
+				D021E5041AD56D5A00F7C08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D021E5051AD56D5A00F7C08A /* Build configuration list for PBXNativeTarget "Pusic Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D021E5061AD56D5A00F7C08A /* Debug */,
+				D021E5071AD56D5A00F7C08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D021E5081AD56D5A00F7C08A /* Build configuration list for PBXNativeTarget "Pusic BoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D021E5091AD56D5A00F7C08A /* Debug */,
+				D021E50A1AD56D5A00F7C08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D021E4CC1AD56D5A00F7C08A /* Project object */;
+}
