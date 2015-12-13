@@ -19,7 +19,13 @@
 		D021E5001AD56D5A00F7C08A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D021E4FE1AD56D5A00F7C08A /* InfoPlist.strings */; };
 		D021E5021AD56D5A00F7C08A /* Pusic_BoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D021E5011AD56D5A00F7C08A /* Pusic_BoxTests.m */; };
 		D021E50C1AD5734900F7C08A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D021E50B1AD5734900F7C08A /* WebKit.framework */; };
-		D021E5101AD5954E00F7C08A /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D021E50F1AD5954E00F7C08A /* icon.icns */; };
+		D09E13FE1AECE78F0022689B /* PusicBoxTitlebarAccessoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E13FC1AECE78F0022689B /* PusicBoxTitlebarAccessoryViewController.m */; };
+		D09E13FF1AECE78F0022689B /* PusicBoxTitlebarAccessoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09E13FD1AECE78F0022689B /* PusicBoxTitlebarAccessoryViewController.xib */; };
+		D09E14071AED16850022689B /* QMSimpleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E14061AED16850022689B /* QMSimpleWindow.m */; };
+		D09E14091AED17D50022689B /* test_01.png in Resources */ = {isa = PBXBuildFile; fileRef = D09E14081AED17D50022689B /* test_01.png */; };
+		D09EC7C91AEE980400342F55 /* dottot.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EC7C81AEE980400342F55 /* dottot.png */; };
+		D09EC7CD1AEFE6F000342F55 /* button_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EC7CC1AEFE6F000342F55 /* button_bg.png */; };
+		D09EC7CF1AEFF12400342F55 /* pusic_box.icns in Resources */ = {isa = PBXBuildFile; fileRef = D09EC7CE1AEFF12400342F55 /* pusic_box.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +59,15 @@
 		D021E4FF1AD56D5A00F7C08A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D021E5011AD56D5A00F7C08A /* Pusic_BoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pusic_BoxTests.m; sourceTree = "<group>"; };
 		D021E50B1AD5734900F7C08A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		D021E50F1AD5954E00F7C08A /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		D09E13FB1AECE78F0022689B /* PusicBoxTitlebarAccessoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PusicBoxTitlebarAccessoryViewController.h; sourceTree = "<group>"; };
+		D09E13FC1AECE78F0022689B /* PusicBoxTitlebarAccessoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PusicBoxTitlebarAccessoryViewController.m; sourceTree = "<group>"; };
+		D09E13FD1AECE78F0022689B /* PusicBoxTitlebarAccessoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PusicBoxTitlebarAccessoryViewController.xib; sourceTree = "<group>"; };
+		D09E14051AED16850022689B /* QMSimpleWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMSimpleWindow.h; sourceTree = "<group>"; };
+		D09E14061AED16850022689B /* QMSimpleWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMSimpleWindow.m; sourceTree = "<group>"; };
+		D09E14081AED17D50022689B /* test_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test_01.png; path = ../test_01.png; sourceTree = "<group>"; };
+		D09EC7C81AEE980400342F55 /* dottot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dottot.png; sourceTree = "<group>"; };
+		D09EC7CC1AEFE6F000342F55 /* button_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bg.png; sourceTree = "<group>"; };
+		D09EC7CE1AEFF12400342F55 /* pusic_box.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = pusic_box.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,8 @@
 		D021E4CB1AD56D5A00F7C08A = {
 			isa = PBXGroup;
 			children = (
+				D09E14051AED16850022689B /* QMSimpleWindow.h */,
+				D09E14061AED16850022689B /* QMSimpleWindow.m */,
 				D021E4DD1AD56D5A00F7C08A /* Pusic Box */,
 				D021E4FB1AD56D5A00F7C08A /* Pusic BoxTests */,
 				D021E4D61AD56D5A00F7C08A /* Frameworks */,
@@ -121,6 +137,7 @@
 		D021E4DD1AD56D5A00F7C08A /* Pusic Box */ = {
 			isa = PBXGroup;
 			children = (
+				D09E13FA1AECE7450022689B /* PusicBoxTitleBar */,
 				D021E4E91AD56D5A00F7C08A /* PusicBoxAppDelegate.h */,
 				D021E4EA1AD56D5A00F7C08A /* PusicBoxAppDelegate.m */,
 				D021E4EC1AD56D5A00F7C08A /* MainMenu.xib */,
@@ -133,7 +150,10 @@
 		D021E4DE1AD56D5A00F7C08A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D021E50F1AD5954E00F7C08A /* icon.icns */,
+				D09EC7CC1AEFE6F000342F55 /* button_bg.png */,
+				D09E14081AED17D50022689B /* test_01.png */,
+				D09EC7CE1AEFF12400342F55 /* pusic_box.icns */,
+				D09EC7C81AEE980400342F55 /* dottot.png */,
 				D021E4DF1AD56D5A00F7C08A /* Pusic Box-Info.plist */,
 				D021E4E01AD56D5A00F7C08A /* InfoPlist.strings */,
 				D021E4E31AD56D5A00F7C08A /* main.m */,
@@ -159,6 +179,16 @@
 				D021E4FE1AD56D5A00F7C08A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D09E13FA1AECE7450022689B /* PusicBoxTitleBar */ = {
+			isa = PBXGroup;
+			children = (
+				D09E13FB1AECE78F0022689B /* PusicBoxTitlebarAccessoryViewController.h */,
+				D09E13FC1AECE78F0022689B /* PusicBoxTitlebarAccessoryViewController.m */,
+				D09E13FD1AECE78F0022689B /* PusicBoxTitlebarAccessoryViewController.xib */,
+			);
+			name = PusicBoxTitleBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,11 +268,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09EC7CD1AEFE6F000342F55 /* button_bg.png in Resources */,
 				D021E4E21AD56D5A00F7C08A /* InfoPlist.strings in Resources */,
 				D021E4F01AD56D5A00F7C08A /* Images.xcassets in Resources */,
+				D09EC7C91AEE980400342F55 /* dottot.png in Resources */,
+				D09EC7CF1AEFF12400342F55 /* pusic_box.icns in Resources */,
 				D021E4E81AD56D5A00F7C08A /* Credits.rtf in Resources */,
 				D021E4EE1AD56D5A00F7C08A /* MainMenu.xib in Resources */,
-				D021E5101AD5954E00F7C08A /* icon.icns in Resources */,
+				D09E13FF1AECE78F0022689B /* PusicBoxTitlebarAccessoryViewController.xib in Resources */,
+				D09E14091AED17D50022689B /* test_01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09E13FE1AECE78F0022689B /* PusicBoxTitlebarAccessoryViewController.m in Sources */,
 				D021E4E41AD56D5A00F7C08A /* main.m in Sources */,
+				D09E14071AED16850022689B /* QMSimpleWindow.m in Sources */,
 				D021E4EB1AD56D5A00F7C08A /* PusicBoxAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +433,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pusic Box/Pusic Box-Prefix.pch";
 				INFOPLIST_FILE = "Pusic Box/Pusic Box-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -409,6 +446,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pusic Box/Pusic Box-Prefix.pch";
 				INFOPLIST_FILE = "Pusic Box/Pusic Box-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
